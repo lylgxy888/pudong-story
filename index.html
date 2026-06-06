@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>站在地球仪旁边思考浦东开发</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <!-- 顶部导航栏：复刻图像中的等宽深灰色设计 -->
+  <nav class="top-nav">
+    <div class="nav-item active" data-target="sec-globe">1. 浦东理念</div>
+    <div class="nav-item" data-target="sec-triangle">2. 极品之地</div>
+    <div class="nav-item" data-target="sec-blueprint">3. 五国方案</div>
+    <div class="nav-item" data-target="sec-models">4. 模式抉择</div>
+    <div class="nav-item" data-target="sec-zones">5. 四大功能区</div>
+    <div class="nav-item" data-target="sec-law">6. 睿智立法</div>
+    <div class="nav-item" data-target="sec-gong">7. 金融破局</div>
+    <div class="nav-item" data-target="sec-green">8. 陆家嘴绿地</div>
+    <div class="nav-item" data-target="sec-jinmao">9. 中西文化</div>
+  </nav>
+
+  <!-- 主内容区域（单栏居中流式排版） -->
+  <main class="content-container">
+
+    <!-- SECTION 1: 浦东理念 -->
+    <section id="sec-globe" class="story-section">
+      <div class="section-meta">STAGE 01 · 规划与眼界</div>
+      <h1 class="main-title">站在地球仪旁边思考浦东开发</h1>
+      <h1 class="main-title">浦东军休 刘永禄</h1>
+      <p class="paragraph">1990年代初，在浦东大道141号简陋的食堂里，挂着一条看似宏大却极具务实精神的标语："站在地球仪旁边思考浦东开发"。</p>
+      <p class="paragraph">这句话的创意者是时任浦东新区管委会主任的赵启正。他以此提醒所有的浦东干部，必须具备国际眼光、国际思维和国际战略。浦东开发不是为了上海一城一地，而是为了让中国在世界上展开平等的经济对话。</p>
+
+      <!-- 居中交互卡片 -->
+      <div class="visual-card">
+        <div class="card-header">全球视野：从太平洋走向世界</div>
+        <div class="card-body">
+          <svg class="globe-svg" viewBox="0 0 400 400" width="280" height="280">
+            <circle cx="200" cy="200" r="150" fill="#f8fafc" stroke="#3b4358" stroke-width="1.5" />
+            <g stroke="#3b4358" stroke-opacity="0.15" fill="none">
+              <ellipse cx="200" cy="200" rx="150" ry="60" />
+              <ellipse cx="200" cy="200" rx="150" ry="110" />
+              <ellipse cx="200" cy="200" rx="60" ry="150" />
+              <ellipse cx="200" cy="200" rx="110" ry="150" />
+            </g>
+            <path d="M160,110 Q200,90 240,105 Q270,120 280,150 Q290,180 270,200 Q240,215 215,210 Z" fill="#766f6e" opacity="0.3" />
+            <circle cx="232" cy="178" r="6" fill="#ff9d24" class="pulse-dot" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: 极品之地 -->
+    <section id="sec-triangle" class="story-section">
+      <div class="section-meta">GEOGRAPHY · 地理优势</div>
+      <h2 class="section-title">20世纪大都市最后的"极品之地"</h2>
+      <p class="paragraph">在世界级的规划大师眼里，浦东是一块天然的"极品之地"。它由黄浦江的东岸、长江入海口的西南岸、川杨河的北面构成。</p>
+      <p class="paragraph">这片地域呈现一个完美的等腰三角形：顶角是黄浦江和长江的汇合处，左底角由黄浦江和川杨河汇合而成。这片地绝大部分在上海市中心15公里的辐射范围之内，水深超过12米，拥有发展海河运输与现代制造业的巨大潜力。</p>
+
+      <div class="visual-card">
+        <div class="card-header">鼠标悬停圆点探索"等腰三角形"地理要素</div>
+        <div class="card-body">
+          <div class="interactive-tip" id="map-tooltip">指向地图上的关键节点查看详情</div>
+          <svg class="triangle-svg" viewBox="0 0 400 400" width="300" height="300">
+            <polygon points="200,80 340,300 60,300" fill="rgba(14, 165, 233, 0.02)" stroke="#3b4358" stroke-width="1.5" />
+            <path d="M 200 80 Q 240 180 220 300" stroke="#8cb2c1" stroke-width="5" fill="none" />
+            <path d="M 60 300 Q 200 320 340 300" stroke="#3b4358" stroke-width="7" fill="none" />
+            <line x1="130" y1="300" x2="270" y2="300" stroke="#766f6e" stroke-width="3" />
+            <!-- 交互热点 -->
+            <circle class="map-hotspot" data-info="【顶角】外滩对岸的陆家嘴：未来的金融与商业核心区" cx="200" cy="80" r="10" fill="#ff9d24" />
+            <circle class="map-hotspot" data-info="【左底角】黄浦江与川杨河汇合处：连接上海内河航运网络" cx="60" cy="300" r="10" fill="#3b4358" />
+            <circle class="map-hotspot" data-info="【右底角】川杨河与长江入海口汇合处：通江达海的物流门户" cx="340" cy="300" r="10" fill="#766f6e" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: 五国方案 -->
+    <section id="sec-blueprint" class="story-section">
+      <div class="section-meta">PLANNING · 借脑世界</div>
+      <h2 class="section-title">五国方案的智力碰撞</h2>
+      <p class="paragraph">一个城市的规划向全世界征求方案，在20世纪90年代初触动了"安全保密"的红线。但浦东顶住压力，率先向世界招标。</p>
+      <p class="paragraph">1992年11月，英、法、日、意、中五国的顶级规划大师汇聚一堂。日本设计师带来了形似"集成电路板"的超现实信息系统方案；意大利设计师巧妙融入了中国古城堡的太极阴阳理念；法国设计师突出抽象简洁；英国设计师则设计了极富古典角斗场韵味的方案。</p>
+
+      <div class="visual-card">
+        <div class="card-header">点击国家标签，观察陆家嘴规划形态的演变</div>
+        <div class="card-body">
+          <div class="blueprint-tabs">
+            <button class="tab-btn active" data-scheme="china">🇨🇳 中国</button>
+            <button class="tab-btn" data-scheme="japan">🇯🇵 日本</button>
+            <button class="tab-btn" data-scheme="italy">🇮🇹 意大利</button>
+            <button class="tab-btn" data-scheme="france">🇫🇷 法国</button>
+            <button class="tab-btn" data-scheme="uk">🇬🇧 英国</button>
+          </div>
+          <svg viewBox="0 0 400 400" width="280" height="280">
+            <rect width="400" height="400" fill="none" stroke="#f1f5f9" />
+            <circle cx="200" cy="200" r="140" fill="none" stroke="#e2e8f0" stroke-dasharray="4 4" />
+            <circle cx="200" cy="200" r="90" fill="none" stroke="#e2e8f0" />
+            <polygon id="morph-shape" points="200,80 280,80 280,180 360,180 360,330 40,330"
+                     fill="rgba(255, 157, 36, 0.08)" stroke="#ff9d24" stroke-width="2.5" />
+          </svg>
+          <div id="scheme-title" class="scheme-desc">中国方案：东西向轴线，注重实用与辐射力</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: 开发模式抉择（新增交互卡片） -->
+    <section id="sec-models" class="story-section">
+      <div class="section-meta">STRATEGY · 模式选择</div>
+      <h2 class="section-title">四大开发模式的艰难抉择</h2>
+      <p class="paragraph">在浦东开发之初，关于选择哪种开发模式曾有过激烈的争论。决策者对比了当时国内外最成功的四种模式：</p>
+      <p class="paragraph">最终，上海没有照搬任何一种，而是创造性地选择了<strong>"全方位、多层次开发的新区方式"</strong>，实行金融先行、东西联动，既重工业又重现代服务业，服务全国，面向世界。</p>
+
+      <div class="visual-card">
+        <div class="card-header">点击不同模式，查看浦东决策者的考量维度</div>
+        <div class="card-body">
+          <div class="model-selector">
+            <button class="model-btn" data-model="tech">工业小区模式</button>
+            <button class="model-btn" data-model="sez">经济特区模式</button>
+            <button class="model-btn" data-model="hk">"再造香港"模式</button>
+            <button class="model-btn active" data-model="sg">"全方位新区"模式</button>
+          </div>
+          <div class="model-evaluation-box" id="model-eval">
+            <h4 class="eval-title" id="eval-name">"全方位、多层次开发的新区方式"（最终选择）</h4>
+            <p class="eval-text" id="eval-desc">设立金融、保税、加工等多个功能区，既利用上海科技和工业优势，又重塑全国经济中心的多功能辐射作用。不画地为牢，实现东西联动。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: 四大功能区（新增交互卡片） -->
+    <section id="sec-zones" class="story-section">
+      <div class="section-meta">FUNCTIONAL ZONES · 功能立骨</div>
+      <h2 class="section-title">不搞经济开发区，搞"功能开发区"</h2>
+      <p class="paragraph">"既然要再造中心，光靠引进外资搞工业不行。"浦东摒弃了功能单一的工业小区模式，在全国率先提出了"功能区"的概念。</p>
+      <p class="paragraph">由此，陆家嘴金融贸易区、外高桥保税区、金桥出口加工区、张江高科技园区这四大国家级功能区应运而生。它们各司其职，共同构成了现代城市功能要素的闭环。</p>
+
+      <div class="visual-card">
+        <div class="card-header">点击探索浦东"四大奇迹功能区"的核心定位</div>
+        <div class="card-body">
+          <div class="zones-grid">
+            <div class="zone-card" data-zone="lujiazui">
+              <div class="zone-icon">🏦</div>
+              <h3>陆家嘴金融贸易区</h3>
+              <p>中国唯一以金融贸易命名的国家级开发区，与外滩一江之隔，重塑金融中心。</p>
+            </div>
+            <div class="zone-card" data-zone="waigaoqiao">
+              <div class="zone-icon">🚢</div>
+              <h3>外高桥保税区</h3>
+              <p>中国大陆开放度最大的自由贸易区，境内关外，主打国际贸易与仓储物流。</p>
+            </div>
+            <div class="zone-card" data-zone="jinqiao">
+              <div class="zone-icon">🚗</div>
+              <h3>金桥出口加工区</h3>
+              <p>主打高附加值、先进制造业。汽车、电子等支柱产业迅速融入全球产业链。</p>
+            </div>
+            <div class="zone-card" data-zone="zhangjiang">
+              <div class="zone-icon">�</div>
+              <h3>张江高科技园区</h3>
+              <p>承载上海振兴高科技产业的梦想。芯片、医药、软件在此成规模地自主创新。</p>
+            </div>
+          </div>
+          <div id="zone-detail-display" class="zone-detail-panel">点击上方功能区卡片查看详细开发思路</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: 睿智立法 -->
+    <section id="sec-law" class="story-section">
+      <div class="section-meta">LAW · 制度保障</div>
+      <h2 class="section-title">睿智立法，击碎国际投资疑虑</h2>
+      <p class="paragraph">在美国的新闻座谈会上，曾有外商质问："你们的政策就巴掌大，我们凭什么敢来投资？"朱镕基斩钉截铁地回答："我们一定会立法！"</p>
+      <p class="paragraph">1990年9月，首批中、英、日三语版本的法规向全球发布。这与当时南方特区"干起来再说、法律滞后"的做法完全不同，实现了"立法先行"，为外商投资提供了坚实的法制保障。</p>
+
+      <div class="visual-card">
+        <div class="card-header">点击文件，亲自盖下"立法之印"</div>
+        <div class="card-body">
+          <div class="law-stack" id="law-stack">
+            <div class="law-doc">
+              <div class="law-title">浦东开发暂行办法</div>
+              <div class="law-content">LAND REGULATIONS</div>
+              <div class="law-footer">中·英·日三语发布</div>
+            </div>
+            <div class="law-seal" id="law-seal">
+              <div class="seal-text">立法印</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: 铜锣 -->
+    <section id="sec-gong" class="story-section">
+      <div class="section-meta">FINANCE · 第三产业突破</div>
+      <h2 class="section-title">第三产业的惊人一跃：开市铜锣</h2>
+      <p class="paragraph">在计划经济时代，第三产业常被误认为"不创造财富"。但浦东开发敏锐地意识到，金融、信息、咨询才是带动长江流域经济的制高点。</p>
+      <p class="paragraph">1990年12月19日，上海证券交易所敲响了开市的铜锣。这声清脆的巨响，不仅宣告着中国资本市场的破茧而出，更推动了上海这座老工业城市的整体转型。</p>
+
+      <div class="visual-card">
+        <div class="card-header">上海证券交易所开市铜锣</div>
+        <div class="card-body">
+          <div class="gong-wrapper" id="gong-wrapper">
+            <div class="gong-disc">当</div>
+            <div class="gong-wave" id="gong-wave"></div>
+          </div>
+          <button id="play-gong-btn" class="action-btn">敲响铜锣 🔔</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: 陆家嘴绿地 -->
+    <section id="sec-green" class="story-section">
+      <div class="section-meta">ECOLOGY · 城市之肺</div>
+      <h2 class="section-title">10万平米中心绿地，能被"平替"吗？</h2>
+      <p class="paragraph">曾有著名的泰国企业家劝说：陆家嘴地价这么高，搞绿地太可惜了，盖楼能赚几百亿。</p>
+      <p class="paragraph">但规划者坚信：城市需要呼吸，需要"肺"。高楼林立的金融区，不能只有"水泥森林"。舍得这样做，是为了人和自然的和谐，是为了上海建设国际金融中心的长远功能。</p>
+
+      <!-- 复刻图像：堆叠柱状图卡片 -->
+      <div class="visual-card">
+        <div class="chart-container">
+          <h3 class="chart-title">陆家嘴金融中心区土地规划对比</h3>
+
+          <!-- 图例 -->
+          <div class="chart-legend">
+            <div class="legend-item"><span class="legend-color" style="background: #ff9d24;"></span>金融商业</div>
+            <div class="legend-item"><span class="legend-color" style="background: #3b4358;"></span>住宅配套</div>
+            <div class="legend-item"><span class="legend-color" style="background: #766f6e;"></span>道路交通</div>
+            <div class="legend-item"><span class="legend-color" style="background: #8cb2c1;"></span>公共绿地</div>
+            <div class="legend-item"><span class="legend-color" style="background: #d4e6d9;"></span>其他留白</div>
+          </div>
+
+          <!-- 堆叠柱状图主图 -->
+          <div class="chart-main">
+            <!-- 柱子 1：常规开发模式 -->
+            <div class="chart-column">
+              <div class="bar-stack">
+                <div class="segment" style="height: 15%; background: #d4e6d9;">15%</div>
+                <div class="segment" style="height: 10%; background: #8cb2c1;">10%</div>
+                <div class="segment" style="height: 15%; background: #766f6e;">15%</div>
+                <div class="segment" style="height: 20%; background: #3b4358;">20%</div>
+                <div class="segment" style="height: 40%; background: #ff9d24;">40%</div>
+              </div>
+              <div class="column-label">常规房地产高密开发模式</div>
+            </div>
+
+            <!-- 柱子 2：浦东功能开发模式 -->
+            <div class="chart-column">
+              <div class="bar-stack">
+                <div class="segment" style="height: 10%; background: #d4e6d9;">10%</div>
+                <div class="segment" style="height: 35%; background: #8cb2c1;">35%</div>
+                <div class="segment" style="height: 15%; background: #766f6e;">15%</div>
+                <div class="segment" style="height: 10%; background: #3b4358;">10%</div>
+                <div class="segment" style="height: 30%; background: #ff9d24;">30%</div>
+              </div>
+              <div class="column-label">陆家嘴功能开发模式 (实际)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 9: 金茂大厦 -->
+    <section id="sec-jinmao" class="story-section">
+      <div class="section-meta">ARCHITECTURE · 文化交融</div>
+      <h2 class="section-title">金茂大厦：中西文化的融合回响</h2>
+      <p class="paragraph">金茂大厦的设计，是一次跨越时空的文化对话。美国设计师接手投标后，首先研究了中国2000多座宝塔，最终选定了西安的大雁塔作为构思原型。</p>
+      <p class="paragraph">他们又参考了北京紫禁城的平面布局，将中国文化之精髓深深融入了这座88层、8角型的现代摩天大楼中。完成了古老与现代、东方与西方的完美对接。</p>
+
+      <div class="visual-card">
+        <div class="card-header">金茂大厦：西安大雁塔的现代重塑</div>
+        <div class="card-body">
+          <svg class="jinmao-svg" viewBox="0 0 300 500" width="200" height="350">
+            <path d="M 150 460 L 110 460 L 110 420 L 130 420 L 130 380 L 115 380 L 115 340 L 130 340 L 130 300 L 120 300 L 120 260 L 130 260 L 130 220 L 125 220 L 125 180 L 130 180 L 130 140 L 135 140 L 135 100 L 140 80 L 145 50 L 150 30 L 155 50 L 160 80 L 165 100 L 165 140 L 170 140 L 170 180 L 175 180 L 175 220 L 170 220 L 170 260 L 180 260 L 180 300 L 170 300 L 170 340 L 185 340 L 185 380 L 170 380 L 170 420 L 190 420 L 190 460 Z"
+                  fill="none" stroke="#ff9d24" stroke-width="2" />
+          </svg>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/+esm",
+        "gsap/ScrollTrigger": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/ScrollTrigger.js/+esm"
+      }
+    }
+  </script>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
